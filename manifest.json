@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "chromeChat",
+  "version": "1.0.0",
+  "description": "Get instant ChatGPT responses in a small window alongside your search results.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
